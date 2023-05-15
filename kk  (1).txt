@@ -1,0 +1,127 @@
+1. Are the HTML tags and elements the same thing ?
+> HTML tags are building blocks HTML page element are completes that are used HTML page.
+> starting and ending tag in element.
+>some tags do not have a clocing tag. 
+
+2. what are tags and attributes in HTML ?
+> An HTML attribute is a piece of markup language used to adjust the behavior or display of an HTML element.
+> For example, attributes can be used to change the color, size, or functionality of HTML elements. 
+> Attributes are used by including them in an opening HTML 
+> tag: <tag_name attribute_name="value">Content</tag_name>
+
+3.What are void element in HTML? With Example.
+> A void element is an element in HTML that cannot have any child nodes (i.e., nested elements or text nodes).
+> Void elements only have a start tag; end tags must not be specified for void elements.
+> In HTML, a void element must not have an end tag.
+> For example, <input type="text"></input> is invalid HTML.
+
+4.What are HTML Entities? With Example.
+> An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ).
+> Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code),
+> and invisible characters (like non-breaking spaces) 
+
+5.What are different types of lists in HTML? With Example.
+>HTML List Tags
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+
+6.What is the ‘class’ attribute in HTML? With Example.
+> The class attribute specifies one or more classnames for an element.
+> The class attribute is mostly used to point to a class in a style sheet.
+> However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? With Example.
+> Remember the difference between Class and ID: A Class name can be used by multiple HTML elements, 
+> while an ID name must only be used by one HTML element within the page.
+
+8.What are the various formatting tags in HTML?
+>HTML Formatting Elements
+  <b> - Bold text.
+  <strong> - Important text.
+  <i> - Italic text.
+  <em> - Emphasized text.
+  <mark> - Marked text.
+  <small> - Smaller text.
+  <del> - Deleted text.
+  <ins> - Inserted text.
+
+9.How is Cell Padding different from Cell Spacing? With Example.
+> Cellpadding basically defines the space present between a table cell's border and the content present in it.
+> Cellspacing basically defines the space present between individual adjacent cells.
+> One can create it using the tag of HTML <table>, but it sets the type attribute to cellpadding.
+
+10.How can we club two or more rows or columns into a single row or column in an HTML table? With Example.
+> We use the colspan and rowspan attribute, to merge cells in HTML. 
+>The rowspan attribute is for the number of rows a cell should merge,
+> whereas the colspan attribute is for the number of columns a cell should merge.
+> The attribute should be placed inside the <td> tag
+
+11.What is the difference between a block-level element and an inline element?
+> Difference Between Inline and Block Elements in HTML
+> Block elements cover space from left to right as far as it can go.
+> Inline elements only cover the space as bounded by the tags in the HTML element.
+> Block elements have top and bottom margins. 
+> Inline elements don't have a top and bottom margin.
+
+12.How to create a Hyperlink in HTML? With Example.
+> <a> element to define a link.
+> href attribute to define the link 
+> <img> element (inside <a> ) to use an image as a link.
+
+13.What is the use of an iframe tag? With Example.
+> The <iframe> tag specifies an inline frame.
+
+14.What is the use of a span tag? Explain with example?
+> The <span> tag is an inline container used to mark up a part of a text, or a part of a document. 
+> The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. 
+> The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+15.How to insert a picture into a background image of a web page? With Example.
+> To set the background image of a webpage, use the CSS style. Under the CSS <style> tag, add the property background-image.
+> The property sets a graphic such as jpg, png, svg, gif, etc.
+> HTML5 do not support the <body> background attribute, so CSS is used to change set background image.
+
+16.How are active links different from normal links?
+> Those that don't have a mouse cursor over that link is considered a normal link.
+> Some browser recognize active links when the mouse cursor is placed over that link. 
+> Others recognize active links when the link has the focus. 
+> Those that do not have mouse cursor over the link is said to be normal link.
+
+17.What are the different tags to separate sections of text?
+> <br> tag – Usually <br> tag 
+> <p> tag  paragraph
+> <blockquote> tag – It is used to define a large quoted section.
+
+18.What is SVG?
+> SVG stands for Scalable Vector Graphics. SVG is used to define graphics for the Web. 
+
+19.What is difference between HTML and XHTML?
+> HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML.
+> Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+
+20.What are logical and physical tags in HTML?
+> Logical tags :<strong> </strong> tag..
+> physical tags : <big>,<blink>,<i>,<s>,<small>,<strike>,<sub> Tag. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
