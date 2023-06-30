@@ -1,0 +1,12 @@
+1.what are the new tags added in HTML5?
+> HTML5 -(Elements)
+> <section>
+> <time>	
+> <video>	
+> <wbr>
+
+2. How to embed audio and video in a webpage?
+>The HTML5 <audio> and <video> tags make it simple to add media to a website.
+> You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.
+3.semantic element html5?
+><div>,	<span>, <from>,<table,><atricle>
