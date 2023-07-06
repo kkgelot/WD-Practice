@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 4px;
+    height: 36px;
+    margin-left: 10px;
+    background-color: #e74c3c;
+}
+.col-50 {
+    width: 50%;
+    color: white;
+}
+
+.back {
+    background-color: #202020;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.h-one {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.h-one {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 335px;
+}
+.web {
+    position: relative;
+    right: 100px;
+    top: 25px;
+    padding-top: 50px;
+    color: #e74c3c;
+    text-align: right;
+}
+.lorem-one {
+    padding-top: 41px;
+    width: 85%;
+    text-align: right;
+}
+
+.font i {
+    position: relative;
+    top: -30px;
+    left: 668px;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    color: rgb(109, 25, 25);
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

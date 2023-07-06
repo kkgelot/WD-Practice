@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(./img/back.png);
+    height: 500px;
+    background-size: cover;
+}
+
+.row {
+    background-image: url(./img/pati.png);
+    background-size: cover;
+    position: relative;
+    top: 25px;
+    overflow: hidden;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+.box-box img{
+    border: solid 1px;
+    border-radius: 50px;
+}
+
+.h-one h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.p-one {
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 160px;
+
+}
+
+
+.box2 {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}   
+
+.box3 { 
+    position: relative;
+    top: -38px;
+    left: 10px;
+}
+.flex img{
+    border: solid 1px red;
+}
+
+.box-for {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+.box5 {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.box6 {
+    position: relative;
+    bottom: 68px;
+    left: 10px;
+}
+.too{
+    position: relative;
+    top: 20px;
+}
+.box3 h2{
+    font-size: 25px;
+    color: brown;
+}
+.box3 span{
+    color: white;
+}
+
+.box-one {
+    height: 1px;
+    width: 65px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+    bottom: 128px;
+    left: 25px;
+}
+
+.box-to {
+    height: 1px;
+    width: 65px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+    bottom: 129px;
+    right: 75px;
+
+}
+.box-tree{
+    height: 7px;
+    width: 7px;
+    background-color:red;
+    margin: 0 auto;
+    position: relative;
+    bottom: 134px;
+    right: 23px;
+    border-radius: 30px;
+}

@@ -1,0 +1,77 @@
+   1.What are the benefits of using CSS?
+  >(1) Faster Page Speed. More code means slower page speed. ...
+   (2) Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting. ...
+   (3) Quicker Development Time. ...
+   (4) Easy Formatting Changes. ...
+   (5) Compatibility Across Devices.
+
+  2.What are the disadvantages of CSS?
+  > Confusion due to many CSS levels. Beginners are more vulnerable to this issue.
+    Cross-Browser Issues. Different browsers work differently.
+    Security Issues. Security is important in today's world driven by technology and data.
+    Extra Work for Developers.
+
+ 3.What is the difference between CSS2 and CSS3?
+ > Unlike CSS2, which was comprised of a single document, 
+   CSS3 has its specifications divided into many individual modules, 
+   which makes CSS3 a whole lot easier to handle.
+
+ 4.Name a few CSS style components
+ > font-size.
+   width.
+   background-color.
+   color.
+   border.
+ 5.What do you understand by CSS opacity?
+ > the degree to which content behind an element is hidden,
+   and is the opposite of transparency.
+
+ 6.How can the background color of an element be changed?
+ > use the CSS background-color property 
+	
+ 7.How can image repetition of the backup be controlled?
+ > use the background-repeat property.
+
+ 8.What is the use of the background-position property?
+ >sets the starting position of a background image.
+ 
+ 9.Which property controls the image scroll in the background?
+ >background-attachment 
+ 
+ 10.Why should background and color be used as separate properties?
+ >It enhances the legibility of style sheets
+ 
+ 11.How to center block elements using CSS1?
+ >make use of the <center> tag
+
+ 12.How to maintain the CSS specifications?
+
+
+ 13.What are the ways to integrate CSS as a web page?
+ > use Inline CSS in a style attribute.
+
+ 14.What is embedded style sheets?
+ > It allows you to define styles for a particular HTML document as a whole in one place
+
+ 15.What are the external style sheets?
+ >a separate CSS file that can be accessed by creating a link within the head section of the webpage.
+
+ 16.What are the advantages and disadvantages of using external style sheets?
+ > one change to the style sheet will change all linked pages.
+   you can create classes of styles that can then be used on many different HTML elements.
+   consistent look and feel across multiple web pages.
+
+ 17.What is the meaning of the CSS selector?
+ > a pattern of elements and other terms that tell the browser which HTML elements should be
+   selected to have the CSS property values inside the rule applied to them.
+
+ 18.What are the media types allowed by CSS? 
+ > continuous or paged.
+   visual, audio, speech, or tactile.
+   grid (for character grid devices), or bitmap.
+   interactive (for devices that allow user interaction), or static (for those that do not).
+   all (includes all media types)
+
+ 19.What is the rule set?
+ > A table of instructions used by a controlled interface to determine what data is allowable 
+   and how the data is handled between interconnected systems.

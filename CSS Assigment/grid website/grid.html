@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .i-one {
+            display: grid;
+            grid-template-rows:59% 39%  ;
+            grid-template-columns: 59% 39% ;
+            overflow: hidden;
+            row-gap: 10px;
+
+
+        }
+        .div-to{
+            display: grid;
+            grid-template-rows:20% 33% 60% ;
+            grid-template-columns: 20% 60% 20%;
+            overflow: hidden;
+        }
+        .div-tree{
+
+            display: grid;
+            grid-template-rows:50% 50% ;
+            grid-template-columns:50% 50% ;
+            overflow: hidden;
+        }
+        .div-for{
+            display: grid;
+            grid-template-rows:33% 33% 33% ;
+            grid-template-columns:33% 33% 33% ;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="one">
+        <div class="i-one">
+            <img src="./img/01.jpg" alt="">
+            <img src="./img/02.jpg" alt="">
+            <!-- <img src="./img/02.jpg" alt=""> -->
+        </div>
+    </section>
+
+    <section class="sec-to">
+        <div class="div-to">
+            <img src="./img/02.jpg" alt="">
+            <img src="./img/01.jpg" alt="">
+            <img src="./img/02.jpg" alt="">
+        </div>
+    </section>
+    <section class="sec-tree">
+        <div class="div-tree">
+            <img src="./img/01.jpg" alt="">
+            <img src="./img/02.jpg" alt="">
+        </div>
+    </section>
+    <section class="sec-for">
+        <div class="div-for">
+            <img src="./img/02.jpg" alt="">
+            <img src="./img/01.jpg" alt="">
+            <img src="./img/02.jpg" alt="">
+        </div>
+    </section>
+</body>
+
+</html>
