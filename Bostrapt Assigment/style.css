@@ -1,0 +1,15 @@
+.font{
+    font-size:30px;
+}
+.bo{
+    border-radius: 100%;
+
+}
+.margin{
+    margin-bottom: 200px;
+    margin: 0 50px;
+    margin-top: 40px;
+}
+section{
+    overflow: hidden;
+}

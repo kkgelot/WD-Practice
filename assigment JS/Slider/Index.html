@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .imggg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            overflow: hidden;
+            width: 100%;
+            height: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <div class="imggg">
+            <img src="./image/02.jpg." alt="" class="imgg" width="100%" height="450px" >
+            <img src="./image/03.jpg" alt="" class="imgg" width="100%" height="450px">
+            <img src="./image/04.jpg" alt="" class="imgg" width="100%" height="450px">
+            <img src="./image/03.jpg" alt="" class="imgg" width="100%" height="450px">
+        </div>
+    </section>
+</body>
+ 
+    <script>
+        sanjay = document.getElementsByClassName("imgg")
+        kanu = 0
+        console.log(sanjay);
+    
+        function imggg() {
+            for (let index = 0; index < sanjay.length; index++) {
+                console.log(sanjay[index]);
+                sanjay[index].style.display = "none"
+                
+             }
+            if (kanu >= sanjay.length) {
+               kanu = 0
+    
+            }
+            
+            console.log(kanu);
+            sanjay[kanu].style.display = "block"
+            kanu++;
+    
+    
+            setTimeout(imggg, 1000);
+        }
+        imggg()
+    
+    </script>
+</html >

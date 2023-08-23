@@ -1,0 +1,50 @@
+1)What are the advantages of Bootstrap?
+ans)Top 10 Advantages of Bootstrap for Web Development
+Easy initiation. Coding is a hurricane task for a person who is unbeknownst to web development. ...
+Responsiveness. ...
+Highly customizable. ...
+Extremely user-centric. ...
+Top-notch support. ...
+Cross-browser compatibility. ...
+JavaScript plugins to your rescue. ...
+Far-reaching popularity.
+
+2)What is a Bootstrap Container, and how does it work?
+ans)In Bootstrap, container is used to set the content's margins dealing 
+  with the responsive behaviors of your layout
+
+3)What are the default Bootstrap text settings?
+ans)Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5.
+ The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. 
+In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+
+4)What do you know about the Bootstrap Grid System?
+ans) Bootstrap's grid system uses a series of 
+    containers, rows, and columns to layout and align content
+
+5)What is the difference between Bootstrap 4 and Bootstrap 5
+ans)Bootstrap 4 supports both IE 10 and 11. Bootstrap 5 doesn't support IE 10 and 11
+
+6)What is a Button Group, and what is the class for a basic Button Group?
+  ans)“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create 
+   a series of buttons in groups (without spaces) vertically or horizontall
+
+7)How can you use Bootstrap to make thumbnails?
+ ans) Bootstrap - Thumbnails
+   Add an <a> tag with the class of . thumbnail around an image.
+   This adds four pixels of padding and a gray border.
+   On hover, an animated glow outlines the image.
+
+8)In Bootstrap 4, what is flexbox?
+   ans) The biggest difference between Bootstrap 3 and Bootstrap 4
+    is that Bootstrap 4 now uses flexbox, instead of floats, to handle the layout.
+
+9)How can one create an alert in Bootstrap?
+ans)Success! This alert box indicates a successful or positive action.
+×Info! This alert box indicates a neutral informative change or action.
+×Warning! This alert box indicates a warning that might need attention.
+×Danger!
+
+10)What is a bootstrap card and how would you create one?
+ans)In its simplest form, a Bootstrap card is a . 
+card class with the . card-body class nested inside.
