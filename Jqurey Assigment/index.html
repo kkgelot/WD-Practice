@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            transition: 4s;
+        }
+
+         
+
+        #box p {
+            background-color: darkgoldenrod;
+
+
+        }
+
+        .b {
+            border: solid 1px;
+            margin: 20px;    
+            height: 450px;
+            width: 650px;
+            transition: 3s;
+
+
+        }
+
+        .body {
+
+            border: 1px solid;
+            margin: 20px;
+            height: 400px;
+            width: 600px;
+            transition: 5s;
+        }
+
+        .great {
+            border: 1px solid;
+            margin: 20px;
+            height: 350px;
+            width: 550px;
+            transition: 7s;
+        }
+
+        .ul {
+            border: 1px solid;
+            margin: 20px;
+            height: 300px;
+            width: 500px;
+            transition: 8s;
+        }
+
+        .li {
+            border: 1px solid;
+            margin: 20px;
+            height: 250px;
+            width: 400px;
+             transition: 10s;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+
+    <div id="box">
+        <h1 class="heading"> jquery</h1>
+        <div class="b">
+            <div class="body">
+                <div class="great">
+                    <div class="ul">
+                        <div class="li">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <button id="add-css">
+        add css
+    </button>
+
+    <script>
+        $("#add-css").click(function () {
+        
+            $('.b').css({
+                "background-color": "red",
+                "width": "1300px",
+                "height": "500px",
+            });
+            $('.body').css({
+                "background-color": "yellow",
+                "width": "1200px",
+                "height": "400px"
+            });
+            $('.great').css({
+                "background-color": "blue",
+                "width": "1100px",
+                "height": "350px"
+            });
+            $('.ul').css({
+                "background-color": "green",
+                "width": "1000px",
+                "height": "300px"
+            });
+            $('.li').css({
+                "background-color": "hotpink",
+                "width": "800px",
+                "height": "200px"
+            });
+
+            $(".heading").css({
+                "color": "green"
+            })
+        });
+    </script>
+</body>
+
+</html>
